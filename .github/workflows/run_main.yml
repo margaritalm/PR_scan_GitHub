@@ -16,7 +16,7 @@ jobs:
     name: Security gate
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
       - name: Security scans
         uses: checkmarx/ast-github-action@main
         with:
